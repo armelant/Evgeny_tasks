@@ -1,0 +1,112 @@
+body {
+    background-color: #F5F0E3;
+    color: #001F23;
+    font-family: Roboto;
+}
+
+/*.php {
+    margin-left: 200px;
+}*/
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #f8d4c6;
+}
+
+.navbar-brand {
+    display: block;
+    width: 395px;
+    height: 97px;
+    background: url(images/LogoBig.png);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 65px;
+        height: 65px;
+        background: url(images/LogoSmall.png);
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+@media (max-width: 800px) {
+    .links {
+        font-size: 20px;
+    }
+}
+
+.nav-link {
+    margin-left: 14px;
+}
+
+.cart {
+    margin-right: 58px;
+}
+
+footer {
+    margin-top: 10px;
+    padding-top: 60px;   
+    background-color: #dab7a4;
+    background-position-x: 100px;
+    
+    text-align: center ;
+    align-items: center;
+  }
+  
+  .footer-widget .container {
+    padding-top: 10px;   
+  }
+  
+  .single-widget h2 {
+    color: #666663;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    
+  }
+  
+  .single-widget ul li a{
+      color: #8C8C88;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      padding: 0px 0;
+  }
+
+  .single-widget ul li a:hover{
+      background:none;
+      color:#eac698;
+  } 
+  .footer-bottom {
+    background: #dab7a4;
+    padding-top: 0px;
+  }
+  
+  .footer-bottom p {
+    color: #666663;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+  }
+ 
+  .footer-bottom img {
+   margin-left: 63vw;
+   height: 20px;
+   width: auto; 
+  }
