@@ -56,9 +56,13 @@
 
 <div class="footer-bottom">
     <div class="container">
-        <div class="row">
-            <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.</p>
-        </div>
+        <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.</p>
+        <?php
+            $file = $_SERVER["SCRIPT_NAME"];
+            $break = Explode('/', $file);
+            $pfile = $break[count($break) - 1];
+            echo "This page was last modified on " . date("F d Y H:i:s", filemtime($pfile));
+            ?>
     </div>
 </div>
   </footer>
