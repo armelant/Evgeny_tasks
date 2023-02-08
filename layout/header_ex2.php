@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid my-class-with-padding">
         <div class="cotainer-fluid img-1">
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand" href="exercise2.php"></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,20 +30,30 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 links">
+            <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color: black">
+                        Tasks
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="ex1.php">Exercise 1</a>
+                        </li>
+                        <li><a class="dropdown-item" href="exercise2.php">Exercise 2</a>
+                        </li>
+                        <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
+                        </li>
+                        <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+                        </li>
+                    </ul>
+                </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Index.php</a>
+              <a class="nav-link active" aria-current="page" href="index.php">Index</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="ex1.php">Exercise 1</a>
+              <a class="nav-link active" aria-current="page" href="aboutus.php">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="exercise2.php">Exercise 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="variable.php">Exercise 3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contactus.php">Contact</a>
+              <a class="nav-link active" aria-current="page" href="contactus.php">Contact Us</a>
             </li>
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0 cart">

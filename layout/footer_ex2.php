@@ -18,6 +18,12 @@
             <li class="nav-item">
               <a class="nav-link active footer-link" aria-current="page" href="exercise2.php">Exercise 2</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active footer-link" aria-current="page" href="variable.php">Exercise 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active footer-link" aria-current="page" href="controlflow.php">Exercise 4</a>
+            </li>
           </ul>
             </div>
             </div>
@@ -26,10 +32,10 @@
                     <h2>About Cecile</h2>
                     <ul class="navbar-nav l">
             <li class="nav-item">
-              <a class="nav-link active footer-link" href="#">About Us</a>
+              <a class="nav-link active footer-link" href="aboutus.php">About Us</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active footer-link" href="#">Work with us</a>
+            <a class="nav-link active footer-link" href="contactus.php">Contact Us</a>
             </li>
           </ul>
             </div>

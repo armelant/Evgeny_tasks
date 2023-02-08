@@ -1,4 +1,5 @@
-<?php include "header_ex2.php";
+<?php $title = "Exercise 3";
+include "header_ex2.php";
 $g1 = "5";
 $g2 = "4";
 $g3 = "5";
@@ -15,13 +16,6 @@ $g3 = "5";
             <input type="text" name="lname" required placeholder="Last Name" class="form-control"> <br>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <input type="date" name="bdate" placeholder="Birth Date" class="form-control">
-        </div>
-    </div>
-    Select fav color: <input type="color" name="color"> <br>
-    <input type="submit" value="Submit">
 </form>
 <br>
 <h3>3. Prepare a simple html table and apply bootstrap style to the table. You may use the same table that you did in 3.5.</h3>

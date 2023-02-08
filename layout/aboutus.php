@@ -1,5 +1,5 @@
 <?php
-$title = "About us: HAMK Oy";
+$title = "About us";
 include "header.php" ?>
 
 <h2>About us</h2>

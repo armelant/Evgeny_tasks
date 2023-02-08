@@ -20,26 +20,35 @@
     <div class="row">
   <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Evgeny</a>
+    <a class="navbar-brand" href="index.php">Evgeny</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Index.php</a>
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="color: white">
+                Tasks
+              </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a>                        </li>
+                <li><a class="dropdown-item" href="exercise2.php">Exercise 2</a>
+                </li>
+                <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
+                </li>
+                <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+                </li>
+            </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise 1</a>
+          <a class="nav-link" aria-current="page" href="index.php">Index</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="exercise2.php">Exercise 2</a>
+          <a class="nav-link" href="aboutus.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact us</a>
+          <a class="nav-link" href="contactus.php">Contact Us</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
