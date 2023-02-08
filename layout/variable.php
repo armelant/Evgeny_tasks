@@ -4,7 +4,7 @@ $g2 = "4";
 $g3 = "5";
 ?>
 
-<h3>у сени маленькая пиписька. Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using tag: Hello …., You are welcome to my site.</h3>
+<h3>1. Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using tag: Hello …., You are welcome to my site.</h3>
 <form action="action.php" method="post">
     <div class="row">
 
