@@ -32,7 +32,8 @@
                 Tasks
               </a>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a>                        </li>
+                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a>
+                </li>
                 <li><a class="dropdown-item" href="exercise2.php">Exercise 2</a>
                 </li>
                 <li><a class="dropdown-item" href="variable.php">Exercise 3</a>

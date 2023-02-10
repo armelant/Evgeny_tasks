@@ -44,6 +44,8 @@
                         </li>
                         <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
                         </li>
+                        <li><a class="dropdown-item" href="array.php">Exercise 5</a>
+                        </li>
                     </ul>
                 </li>
             <li class="nav-item">
