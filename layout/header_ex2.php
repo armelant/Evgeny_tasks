@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="exercise2.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script> var ens_lang = 'en'; </script>
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-14291833.js"></script>
+<script defer src="https://lk.easynetshop.ru/frontend/v5/en/ens-14291833.js"></script>
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-14291833.css" rel="stylesheet">
   <title>
     <?php echo $title ?>
   </title>
